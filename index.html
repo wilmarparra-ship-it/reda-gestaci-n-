@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REDA - Actividad Física en Gestación</title>
+  <!-- Fuentes Elegantes al estilo Lotus Studio -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-color: #FBF9F5;
+      --card-bg: #FFFFFF;
+      --accent-color: #8A9A86; /* Verde salvia */
+      --text-main: #2C302E;
+      --text-muted: #6B726E;
+      --border-radius: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      line-height: 1.7;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.2rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: var(--accent-color);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+    }
+
+    /* Layout Principal estilo Lotus Studio */
+    .hero-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      background: var(--card-bg);
+      padding: 40px;
+      border-radius: var(--border-radius);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+      margin-bottom: 50px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      border-radius: calc(var(--border-radius) - 5px);
+      object-fit: cover;
+    }
+
+    .hero-content p {
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+      color: var(--text-muted);
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      text-align: center;
+      margin: 50px 0 30px;
+    }
+
+    /* Galería de Infografías */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      margin-bottom: 60px;
+    }
+
+    .gallery-card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Sección Audiovisual */
+    .video-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+
+    .video-card {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: var(--border-radius);
+      text-align: center;
+    }
+
+    .video-card object, .video-card iframe {
+      width: 100%;
+      height: 280px;
+      border-radius: 12px;
+    }
+
+    .video-caption {
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-top: 1px solid #E5E0D8;
+    }
+
+    @media (max-width: 768px) {
+      .hero-section {
+        grid-template-columns: 1fr;
+      }
+      header h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <p>Recurso Educativo Digital Abierto (REDA)</p>
+    <h1>Actividad Física en la Gestación</h1>
+  </header>
+
+  <!-- SECCIÓN PRINCIPAL -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <p>La gestación es una etapa de importantes cambios físicos, emocionales y sociales que requiere cuidados especiales, pero que no debe entenderse como un período de quietud o inactividad. La práctica de actividad física, cuando se realiza de manera segura y adaptada a las condiciones individuales de cada gestante, puede contribuir al bienestar materno y a una mejor preparación para el trabajo de parto, el parto y la recuperación posterior. 💪</p>
+      
+      <p>Este blog educativo está dirigido a mujeres gestantes y a sus familiares cercanos, reconociendo que la familia puede desempeñar un papel fundamental como fuente de apoyo, motivación y acompañamiento durante el embarazo. Su propósito es brindar información clara y accesible sobre la importancia de mantenerse físicamente activa durante la gestación. 👪</p>
+      
+      <p>Promover una visión del embarazo basada en el conocimiento, el movimiento seguro y el acompañamiento, ayudando a que las gestantes y sus familias comprendan que estar embarazada no significa necesariamente permanecer quieta.</p>
+    </div>
+    <div class="hero-image">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht5-dAXOc6mu4l_PGwcJLei8nYcfCohezRwPBI_7YlOXswzcETaCcYhp26X9chj_14OBPfhYX-roJAPh2v9KOSOxQnZzgmNiZ4ouapwYcqw5TuxzDWOHFyL4kHeIXYMh-qwoToJNCA5VGGCJd9EZFISya7ZBshTNe7z0ypdcUhz1nN7IZoGAEI0vwuJW3t/s1536/ChatGPT%20Image%2019%20sept%202026,%2010_54_28.png" alt="Ilustración Gestación Activa - ChatGPT AI">
+    </div>
+  </section>
+
+  <!-- GALERÍA DE INFOGRAFÍAS -->
+  <h2 class="section-title">Guía Visual e Infografías</h2>
+  <section class="gallery-grid">
+    <div class="gallery-card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiljo1J7U17mEvZ5grnlvS6S8WBv1Mrlc9sr9q0vHKzBtG9M4E6RBM__y4nHcl007JrmTSfoOGbP39ZtTOTNRfFKXhgk3ZkvpobfjR5yxpFP2UAKYzLVvoHWTugg-BMKqD8Efa0BIx4bflSnU2o69C-Pmhvx7t91UWuYr0vkqrCsHrVodRRU4ncRzLU3CAQ/s1600/WhatsApp%20Image%202026-10-09%20at%203.59.09%20PM%20(2).jpeg" alt="Infografía 1">
+    </div>
+    <div class="gallery-card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMakwBpyk4iudBCPAVqOEqlNUWplNH1zPkkPz-cz0NQAnZqUpEUZO7wkkre3F6xkYEkHia3_kw9bzUxID8UJx-qIqGn-ID6KusOVLUqchLB2eszDjJd79uLCtd89AFQ4mN2HWtj80V5cWpLWzcgvpnIb6eDPKuiUPIgXmd60Ov_e4ApIlWEj1Rvcp-Mc43/s1097/WhatsApp%20Image%202026-10-09%20at%203.59.09%20PM%20(1).jpeg" alt="Infografía 2">
+    </div>
+    <div class="gallery-card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgkZQDFzhjMUSU9Jz3q1yrtRJAsQ7_Rw24ybpmFHfEWF6LcjBQ5lmQACRBdRZUL83e1ovmmC0z9C4UL5HlD9eOELUjmm95QZ-ui_KH-268XQ1tBsZOk7ZAdU5DlzjGoZpDAguW75xBozCkOqM3PzxkB27-5eDa5ueTfDpbih4LPeFtBSPloI1BgXIO0Egj/s1097/WhatsApp%20Image%202026-10-09%20at%203.59.08%20PM.jpeg" alt="Infografía 3">
+    </div>
+    <div class="gallery-card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga2JFDFog2qJsZeeVibTyNOPFdQBIbWhnwXYWN7XIn256U4141kUFSKPHLERFUdWRR8X9cLEuavnSVmdy8hvlJq7bevn47M5ofYI6MqzcZrF-y9knplQ92lviVVzpEgZdYHtE6U-bwrCDhkGVPECEsJyMUYQFq-Bi7t4sKD9Kt9asH09t18xOL4tpdN44y/s1097/WhatsApp%20Image%202026-10-09%20at%203.59.09%20PM.jpeg" alt="Infografía 4">
+    </div>
+    <div class="gallery-card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZotmQyQnyhtJqAJYeYVDDFk2No2HnX1ov9Hcd9FRKrGOyH3KYocf6j_Fn4Ucc0TA-RpicdSCu_N521WQs3fY9KtGbI3VLWYSUoeTXRhTYgRUlkMYAuekH3CZMmO_fV_ztEK0dCqMuUxHxrqd4HbLAceAW3uo73j7Uyv7HJzEhATero2xFqNdklqNAilop/s1600/WhatsApp%20Image%202026-10-09%20at%203.59.10%20PM.jpeg" alt="Infografía 5">
+    </div>
+    <div class="gallery-card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxOu02mNJrx1wNOeiDG5Qu_DpEF9dvIVtj4owIfJCaoX0WIMp2m-4Lg_CpfmODuHhEvP5tU8SUdgy7oZNSJ2hb2V0Kc-L6mmxitD2CTu9Rs5stn4YPKubwe5RFWEXxjs0rQPv9IyBgb6d08JzhL0sd0wuLVmYrZdTb2HAXI0Y3m4CbCIMJOBnR5eA6Yaaz/s1097/WhatsApp%20Image%202026-10-09%20at%203.59.10%20PM%20(1).jpeg" alt="Infografía 6">
+    </div>
+  </section>
+
+  <!-- MÓDULO AUDIOVISUAL -->
+  <h2 class="section-title">Contenido Audiovisual</h2>
+  <section class="video-section">
+    <div class="video-card">
+      <object class="BLOG_video_class" id="BLOG_video-d774a6d9346c3e0a" contentid="d774a6d9346c3e0a"></object>
+      <div class="video-caption">Video Elaborado en Notebook LM</div>
+    </div>
+    <div class="video-card">
+      <object class="BLOG_video_class" id="BLOG_video-7e63ef44dd45a8ee" contentid="7e63ef44dd45a8ee"></object>
+      <div class="video-caption">Video Explicativo Actividad Física</div>
+    </div>
+    <div class="video-card">
+      <object class="BLOG_video_class" id="BLOG_video-c89773c92050fe81" contentid="c89773c92050fe81"></object>
+      <div class="video-caption">Video Taller de Movilidad</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Trabajo de Pregrado en Educación y Medios Educativos — Cualificación de REDA</p>
+  </footer>
+
+</body>
+</html>
